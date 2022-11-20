@@ -9,7 +9,6 @@ async function getAllAvailableChargingUnits() {
       return { ...elem, ...loc };
     });
 
-    console.log("DEBUG returnData,", returnData);
     return returnData;
   });
 }
